@@ -1,6 +1,6 @@
 {
   "name": "ng2-smart-table-ang11",
-  "version": "1.8.0",
+  "version": "1.8.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "docs:gh-pages": "npm run build:demo -- --base-href '/ng2-smart-table/' && ngh --dir ./dist/demo",
     "test": "ng test",
     "release": "npm run build:lib && npm run publish",
-    "publish": "npm publish --access=public dist/ng2-smart-table-ang1",
+    "publish": "npm publish --access=public ng2-smart-table-ang11",
     "changelog": "standard-changelog -p angular",
     "lint": "ng lint",
     "e2e": "ng e2e"
